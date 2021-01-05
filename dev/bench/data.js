@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1605896477343,
-  "repoUrl": "https://github.com/tokio-rs/tokio",
+  "lastUpdate": 1609873431330,
+  "repoUrl": "https://github.com/carlosb1/tokio",
   "entries": {
     "sync_rwlock": [
       {
@@ -593,6 +593,60 @@ window.BENCHMARK_DATA = {
             "name": "read_uncontended",
             "value": 493,
             "range": "± 69",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alice@ryhl.io",
+            "name": "Alice Ryhl",
+            "username": "Darksonn"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3549092a0cb760938c9cdab3013fa38c8d392db0",
+          "message": "docs: fix tokio-stream features not being displayed (#3378)",
+          "timestamp": "2021-01-05T11:43:09+01:00",
+          "tree_id": "de0c6ff59c7c647272bf5736b57fb904f22e036a",
+          "url": "https://github.com/carlosb1/tokio/commit/3549092a0cb760938c9cdab3013fa38c8d392db0"
+        },
+        "date": 1609873429995,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "read_concurrent_contended",
+            "value": 1002,
+            "range": "± 135",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "read_concurrent_contended_multi",
+            "value": 15323,
+            "range": "± 3932",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "read_concurrent_uncontended",
+            "value": 1017,
+            "range": "± 202",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "read_concurrent_uncontended_multi",
+            "value": 15594,
+            "range": "± 7877",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "read_uncontended",
+            "value": 593,
+            "range": "± 575",
             "unit": "ns/iter"
           }
         ]
