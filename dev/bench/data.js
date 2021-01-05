@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1609873436834,
+  "lastUpdate": 1609873441644,
   "repoUrl": "https://github.com/carlosb1/tokio",
   "entries": {
     "sync_rwlock": [
@@ -1177,6 +1177,54 @@ window.BENCHMARK_DATA = {
             "name": "yield_many",
             "value": 19153793,
             "range": "± 2780219",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alice@ryhl.io",
+            "name": "Alice Ryhl",
+            "username": "Darksonn"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3549092a0cb760938c9cdab3013fa38c8d392db0",
+          "message": "docs: fix tokio-stream features not being displayed (#3378)",
+          "timestamp": "2021-01-05T11:43:09+01:00",
+          "tree_id": "de0c6ff59c7c647272bf5736b57fb904f22e036a",
+          "url": "https://github.com/carlosb1/tokio/commit/3549092a0cb760938c9cdab3013fa38c8d392db0"
+        },
+        "date": 1609873436396,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "chained_spawn",
+            "value": 200021,
+            "range": "± 45337",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ping_pong",
+            "value": 731914,
+            "range": "± 122819",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "spawn_many",
+            "value": 5148670,
+            "range": "± 1022471",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "yield_many",
+            "value": 20803870,
+            "range": "± 2508235",
             "unit": "ns/iter"
           }
         ]
