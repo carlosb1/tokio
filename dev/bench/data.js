@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1610133644660,
+  "lastUpdate": 1610133652094,
   "repoUrl": "https://github.com/carlosb1/tokio",
   "entries": {
     "sync_rwlock": [
@@ -1977,6 +1977,60 @@ window.BENCHMARK_DATA = {
             "name": "uncontended_concurrent_single",
             "value": 1124,
             "range": "± 229",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "liaoymxsdl@sina.com",
+            "name": "Rust大闸蟹",
+            "username": "baoyachi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e42317b072c5240fe190c0a8708cd24bb4a4eb08",
+          "message": "chore: remove macro_rules semicolon (#3381)\n\nfix build warning",
+          "timestamp": "2021-01-06T15:46:37+09:00",
+          "tree_id": "afddb1695c354a4f98712745b23363ef96774bc8",
+          "url": "https://github.com/carlosb1/tokio/commit/e42317b072c5240fe190c0a8708cd24bb4a4eb08"
+        },
+        "date": 1610133636617,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "contended_concurrent_multi",
+            "value": 14705,
+            "range": "± 3931",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "contended_concurrent_single",
+            "value": 1055,
+            "range": "± 87",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "uncontended",
+            "value": 657,
+            "range": "± 63",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "uncontended_concurrent_multi",
+            "value": 15446,
+            "range": "± 6789",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "uncontended_concurrent_single",
+            "value": 1118,
+            "range": "± 67",
             "unit": "ns/iter"
           }
         ]
